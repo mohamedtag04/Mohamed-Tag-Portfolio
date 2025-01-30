@@ -25,7 +25,7 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-10 transition-all duration-300 ${
+      className={`fixed w-full z-50 transition-all duration-300 ${
         isSticky || isMenuOpen ? "bg-gray-900 shadow-lg" : "bg-transparent"
       }`}
     >
@@ -45,7 +45,7 @@ export function Navbar() {
         </button>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden bg-black py-4 shadow-lg">
+        <div className="md:hidden py-4 shadow-lg">
           <div className="container mx-auto px-4 space-y-2">
             <MobileNavLink href="#home" onClick={toggleMenu}>
               Home
