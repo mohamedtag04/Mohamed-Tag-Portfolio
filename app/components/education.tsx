@@ -9,7 +9,6 @@ export function Education() {
           <p className="text-lg text-gray-300 mb-4">Major: Data Science and Artificial Intelligence</p>
           <div className="flex justify-between items-center mb-4">
             <span className="text-gray-400">October 2022 - July 2026</span>
-            <span className="text-blue-400 font-semibold">GPA: 3.49</span>
           </div>
           <div>
             <h4 className="font-semibold mb-2">Relevant Coursework:</h4>
