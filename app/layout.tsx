@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Mohamed Tag',
   description: 'My Personal Portfolio',
   icons: {
-    icon: '/favicon.ico',
+    icon: 'favicon.ico',
   }
 }
 
