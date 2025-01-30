@@ -13,7 +13,7 @@ export function Header() {
     >
       {/* Background pattern */}
       <div className="absolute inset-0 z-0 opacity-10">
-        <Image src="/pattern.svg" alt="Background pattern" layout="fill" objectFit="cover" quality={100} />
+        <Image src="pattern.svg" alt="Background pattern" layout="fill" objectFit="cover" quality={100} />
       </div>
 
       <div className="container mx-auto z-10">
